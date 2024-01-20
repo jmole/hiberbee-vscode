@@ -15,14 +15,6 @@
   "categories": [
     "Themes"
   ],
-  "scripts": {
-    "start": "code",
-    "build": "vsce package --no-yarn --out=dist/hiberbee-theme-vscode.vsix",
-    "publish": "vsce publish --no-git-tag-version"
-  },
-  "eslintConfig": {
-    "extends": "@bn-digital/eslint-config/typescript"
-  },
   "contributes": {
     "themes": [
       {
